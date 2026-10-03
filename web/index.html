@@ -1,0 +1,1974 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>The Colours Tattoo Studio | Shekhar Nayak | Nashik</title>
+    <meta name="description" content="The Colours Tattoo Studio by Shekhar Nayak (9+ Years Experience). Premium custom tattooing, cover-up, realism, and portraits in Nashik Road, Maharashtra.">
+    <meta name="theme-color" content="#151515">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --bg-deep: #151515;
+            --bg-secondary: #202020;
+            --bg-card: #242424;
+            --text-ivory: #F4F0E8;
+            --text-secondary: #A8A8A8;
+            --gold-antique: #B89B5E;
+            --gold-light: #D4BE82;
+            --border-color: #3A3328;
+            --border-subtle: rgba(184, 155, 94, 0.25);
+            --font-serif: 'Playfair Display', Georgia, serif;
+            --font-display: 'Cinzel', serif;
+            --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        html, body {
+            background-color: var(--bg-deep) !important;
+            color: var(--text-ivory) !important;
+            font-family: var(--font-sans);
+            font-size: 15px;
+            line-height: 1.6;
+            scroll-behavior: smooth;
+            overflow-x: hidden;
+            width: 100%;
+            min-height: 100vh;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        button {
+            cursor: pointer;
+            font-family: inherit;
+            border: none;
+            outline: none;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* --- STICKY HEADER --- */
+        .site-header {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background-color: rgba(32, 32, 32, 0.96);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-color);
+            padding: 12px 20px;
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .brand-logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            cursor: pointer;
+        }
+
+        .brand-crest {
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            border: 1.5px solid var(--gold-antique);
+            object-fit: cover;
+            background-color: var(--bg-card);
+        }
+
+        .brand-titles h1 {
+            font-family: var(--font-serif);
+            font-size: 1.15rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            color: var(--text-ivory);
+            line-height: 1.2;
+        }
+
+        .brand-titles span {
+            font-size: 0.68rem;
+            color: var(--gold-antique);
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            font-weight: 600;
+            display: block;
+        }
+
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .btn-enquire-sm {
+            padding: 8px 16px;
+            background: linear-gradient(135deg, var(--gold-antique), var(--gold-light));
+            color: var(--bg-deep);
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 1.2px;
+            border-radius: 3px;
+            transition: opacity 0.2s;
+        }
+
+        .btn-enquire-sm:hover {
+            opacity: 0.9;
+        }
+
+        .menu-toggle {
+            background: transparent;
+            color: var(--text-ivory);
+            padding: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* --- BUTTONS --- */
+        .btn-gold {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            background: linear-gradient(135deg, var(--gold-antique), #cfb274);
+            color: #121212;
+            padding: 13px 24px;
+            border-radius: 3px;
+            font-weight: 700;
+            font-size: 0.85rem;
+            letter-spacing: 1.2px;
+            text-transform: uppercase;
+            transition: all 0.25s ease;
+            box-shadow: 0 4px 14px rgba(184, 155, 94, 0.2);
+            text-align: center;
+        }
+
+        .btn-gold:hover {
+            box-shadow: 0 6px 20px rgba(184, 155, 94, 0.35);
+            transform: translateY(-1px);
+        }
+
+        .btn-outline {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            background: transparent;
+            color: var(--text-ivory);
+            border: 1px solid var(--border-color);
+            padding: 12px 22px;
+            border-radius: 3px;
+            font-weight: 600;
+            font-size: 0.82rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            transition: all 0.2s;
+            text-align: center;
+        }
+
+        .btn-outline:hover {
+            border-color: var(--gold-antique);
+            color: var(--gold-antique);
+            background: rgba(184, 155, 94, 0.05);
+        }
+
+        .btn-outline-gold {
+            border-color: var(--gold-antique);
+            color: var(--gold-antique);
+        }
+
+        /* --- BADGES & TAGS --- */
+        .section-tag {
+            display: inline-block;
+            color: var(--gold-antique);
+            font-size: 0.72rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 6px;
+        }
+
+        .section-title {
+            font-family: var(--font-serif);
+            font-size: 1.75rem;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            color: var(--text-ivory);
+            line-height: 1.25;
+            margin-bottom: 10px;
+        }
+
+        .section-subtitle {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            line-height: 1.6;
+            max-width: 650px;
+            margin-bottom: 24px;
+        }
+
+        .pill-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            color: var(--gold-antique);
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        /* --- LUXURY CARD --- */
+        .luxury-card {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            padding: 24px;
+            transition: border-color 0.25s ease;
+        }
+
+        .luxury-card:hover {
+            border-color: rgba(184, 155, 94, 0.5);
+        }
+
+        /* --- SECTION PADDING --- */
+        section {
+            padding: 50px 0;
+            border-bottom: 1px solid rgba(58, 51, 40, 0.4);
+        }
+
+        /* --- HERO SECTION --- */
+        .hero-section {
+            padding-top: 40px;
+            padding-bottom: 60px;
+            position: relative;
+        }
+
+        .hero-banner-wrapper {
+            width: 100%;
+            height: 240px;
+            border-radius: 6px;
+            overflow: hidden;
+            margin-bottom: 28px;
+            border: 1px solid var(--border-color);
+            position: relative;
+        }
+
+        .hero-banner-wrapper img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: brightness(0.85);
+        }
+
+        .hero-banner-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to top, rgba(21, 21, 21, 0.95) 0%, rgba(21, 21, 21, 0.3) 60%, transparent 100%);
+        }
+
+        .hero-content h2 {
+            font-family: var(--font-serif);
+            font-size: 2.3rem;
+            line-height: 1.2;
+            color: var(--text-ivory);
+            margin-bottom: 12px;
+            font-weight: 700;
+        }
+
+        .hero-content .hero-quote {
+            font-style: italic;
+            color: var(--gold-light);
+            font-size: 1.1rem;
+            margin-bottom: 14px;
+            font-family: var(--font-serif);
+        }
+
+        .hero-content p {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            line-height: 1.65;
+            margin-bottom: 24px;
+            max-width: 600px;
+        }
+
+        .hero-ctas {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+
+        /* --- ABOUT & ARTIST --- */
+        .artist-card {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 24px;
+            align-items: center;
+        }
+
+        @media (min-width: 768px) {
+            .artist-card {
+                grid-template-columns: 280px 1fr;
+            }
+        }
+
+        .artist-img-wrapper {
+            width: 100%;
+            aspect-ratio: 4/5;
+            border-radius: 4px;
+            overflow: hidden;
+            border: 1px solid var(--border-color);
+            position: relative;
+            background-color: var(--bg-secondary);
+        }
+
+        .artist-img-wrapper img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .coming-soon-ribbon {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(32, 32, 32, 0.92);
+            color: var(--gold-antique);
+            text-align: center;
+            padding: 8px;
+            font-size: 0.72rem;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .qualities-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 12px;
+            margin-top: 20px;
+        }
+
+        .quality-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: var(--bg-secondary);
+            padding: 10px 14px;
+            border-radius: 4px;
+            border: 1px solid rgba(58, 51, 40, 0.6);
+            font-size: 0.85rem;
+            color: var(--text-ivory);
+        }
+
+        .quality-item svg {
+            color: var(--gold-antique);
+            flex-shrink: 0;
+        }
+
+        /* --- SPECIALITIES --- */
+        .specialities-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .spec-card {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .spec-card h3 {
+            font-family: var(--font-serif);
+            font-size: 1.25rem;
+            color: var(--text-ivory);
+            margin-bottom: 8px;
+        }
+
+        .spec-card p {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            line-height: 1.6;
+            margin-bottom: 18px;
+            flex-grow: 1;
+        }
+
+        /* --- 12 STYLES GRID --- */
+        .styles-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            gap: 14px;
+        }
+
+        .style-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            padding: 18px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .style-card:hover {
+            border-color: var(--gold-antique);
+            transform: translateY(-2px);
+        }
+
+        .style-card h4 {
+            font-family: var(--font-serif);
+            font-size: 1.05rem;
+            color: var(--text-ivory);
+            margin-bottom: 6px;
+        }
+
+        .style-card p {
+            color: var(--text-secondary);
+            font-size: 0.82rem;
+            line-height: 1.5;
+        }
+
+        /* --- GALLERY SECTION --- */
+        .filter-chips {
+            display: flex;
+            overflow-x: auto;
+            gap: 8px;
+            padding-bottom: 14px;
+            margin-bottom: 20px;
+            scrollbar-width: none;
+        }
+
+        .filter-chips::-webkit-scrollbar {
+            display: none;
+        }
+
+        .chip {
+            padding: 8px 16px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            color: var(--text-secondary);
+            border-radius: 20px;
+            font-size: 0.78rem;
+            font-weight: 600;
+            white-space: nowrap;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .chip.active, .chip:hover {
+            background: var(--bg-secondary);
+            color: var(--gold-antique);
+            border-color: var(--gold-antique);
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            gap: 16px;
+        }
+
+        .gallery-item {
+            position: relative;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            overflow: hidden;
+            aspect-ratio: 1;
+            cursor: pointer;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.04);
+        }
+
+        .gallery-badge {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: rgba(21, 21, 21, 0.85);
+            color: var(--gold-antique);
+            font-size: 0.65rem;
+            font-weight: 700;
+            padding: 4px 8px;
+            border-radius: 2px;
+            border: 0.5px solid var(--border-color);
+            letter-spacing: 0.5px;
+        }
+
+        .gallery-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to top, rgba(21, 21, 21, 0.9) 0%, transparent 60%);
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 12px;
+        }
+
+        .gallery-overlay h5 {
+            color: var(--text-ivory);
+            font-family: var(--font-serif);
+            font-size: 0.95rem;
+        }
+
+        .gallery-overlay span {
+            color: var(--gold-antique);
+            font-size: 0.72rem;
+            text-transform: uppercase;
+        }
+
+        /* --- TIMELINE / PROCESS --- */
+        .timeline {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            margin-bottom: 24px;
+        }
+
+        .timeline-step {
+            display: flex;
+            gap: 16px;
+        }
+
+        .step-num {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background: var(--bg-card);
+            border: 1px solid var(--gold-antique);
+            color: var(--gold-antique);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 0.85rem;
+            flex-shrink: 0;
+        }
+
+        .step-body {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            padding: 16px;
+            flex-grow: 1;
+        }
+
+        .step-body h4 {
+            font-family: var(--font-serif);
+            font-size: 1.05rem;
+            color: var(--text-ivory);
+            margin-bottom: 4px;
+        }
+
+        .step-body p {
+            color: var(--text-secondary);
+            font-size: 0.88rem;
+            line-height: 1.55;
+        }
+
+        /* --- HYGIENE & AFTERCARE --- */
+        .checklist {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .check-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+        }
+
+        .check-item svg {
+            color: var(--gold-antique);
+            margin-top: 3px;
+            flex-shrink: 0;
+        }
+
+        .check-item p {
+            color: var(--text-ivory);
+            font-size: 0.92rem;
+            line-height: 1.55;
+        }
+
+        .medical-notice {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-left: 3px solid var(--gold-antique);
+            padding: 14px;
+            border-radius: 4px;
+            margin-top: 18px;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+
+        /* --- TESTIMONIALS --- */
+        .testimonial-slider {
+            position: relative;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            padding: 28px;
+        }
+
+        .t-stars {
+            color: var(--gold-antique);
+            margin-bottom: 12px;
+            display: flex;
+            gap: 4px;
+        }
+
+        .t-quote {
+            font-size: 1.05rem;
+            line-height: 1.6;
+            color: var(--text-ivory);
+            margin-bottom: 18px;
+        }
+
+        .t-author {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .t-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: var(--bg-secondary);
+            border: 1px solid var(--gold-antique);
+            color: var(--gold-antique);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-family: var(--font-serif);
+        }
+
+        .t-name {
+            font-family: var(--font-serif);
+            font-weight: 600;
+            color: var(--text-ivory);
+        }
+
+        .slider-controls {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 16px;
+        }
+
+        .btn-icon {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            color: var(--gold-antique);
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s;
+        }
+
+        .btn-icon:hover {
+            border-color: var(--gold-antique);
+        }
+
+        /* --- GOOGLE REVIEW CTA (REQUESTED CLEAN SMALL BUTTON) --- */
+        .google-review-box {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            padding: 24px;
+            text-align: center;
+            margin-top: 24px;
+        }
+
+        .btn-google-review {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--bg-secondary);
+            color: var(--gold-antique);
+            border: 1px solid rgba(184, 155, 94, 0.75);
+            padding: 8px 18px;
+            border-radius: 20px;
+            font-size: 0.78rem;
+            font-weight: 600;
+            letter-spacing: 0.8px;
+            text-transform: uppercase;
+            transition: all 0.2s ease;
+            margin-top: 14px;
+        }
+
+        .btn-google-review:hover {
+            background: rgba(184, 155, 94, 0.12);
+            border-color: var(--gold-antique);
+            transform: translateY(-1px);
+        }
+
+        /* --- FAQ ACCORDION --- */
+        .faq-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .faq-item {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .faq-header {
+            padding: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            font-family: var(--font-serif);
+            font-size: 1rem;
+            color: var(--text-ivory);
+            user-select: none;
+        }
+
+        .faq-header:hover {
+            color: var(--gold-antique);
+        }
+
+        .faq-header svg {
+            transition: transform 0.2s ease;
+            color: var(--gold-antique);
+        }
+
+        .faq-body {
+            padding: 0 16px 16px 16px;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            line-height: 1.6;
+            display: none;
+        }
+
+        .faq-item.active .faq-body {
+            display: block;
+        }
+
+        .faq-item.active .faq-header svg {
+            transform: rotate(180deg);
+        }
+
+        /* --- CONTACT SECTION --- */
+        .contact-details {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .contact-row {
+            display: flex;
+            gap: 14px;
+            padding-bottom: 14px;
+            border-bottom: 1px solid rgba(58, 51, 40, 0.5);
+        }
+
+        .contact-row:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        .contact-row svg {
+            color: var(--gold-antique);
+            margin-top: 2px;
+            flex-shrink: 0;
+        }
+
+        .contact-row label {
+            display: block;
+            font-size: 0.72rem;
+            color: var(--gold-antique);
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 3px;
+        }
+
+        .contact-row strong {
+            font-size: 1.05rem;
+            color: var(--text-ivory);
+        }
+
+        .contact-row p {
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+        }
+
+        /* --- FOOTER --- */
+        .site-footer {
+            background: var(--bg-secondary);
+            border-top: 1px solid var(--border-color);
+            padding: 40px 0 90px 0;
+            text-align: center;
+        }
+
+        .footer-logo {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 1.5px solid var(--gold-antique);
+            margin: 0 auto 14px auto;
+            display: block;
+        }
+
+        .footer-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 18px;
+            margin: 20px 0;
+            font-size: 0.75rem;
+            letter-spacing: 1px;
+            color: var(--text-secondary);
+        }
+
+        .footer-links a:hover {
+            color: var(--gold-antique);
+        }
+
+        .footer-seo {
+            color: rgba(168, 168, 168, 0.5);
+            font-size: 0.7rem;
+            line-height: 1.6;
+            max-width: 600px;
+            margin: 0 auto 16px auto;
+        }
+
+        .footer-copy {
+            color: rgba(168, 168, 168, 0.4);
+            font-size: 0.72rem;
+        }
+
+        /* --- FIXED BOTTOM ACTION BAR --- */
+        .bottom-action-bar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(32, 32, 32, 0.98);
+            border-top: 1px solid var(--border-color);
+            padding: 10px 16px;
+            display: flex;
+            gap: 12px;
+            z-index: 99;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+
+        .bottom-action-bar a {
+            flex: 1;
+            height: 44px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            border-radius: 2px;
+            font-size: 0.78rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .btn-bottom-wa {
+            background: var(--gold-antique);
+            color: var(--bg-deep);
+        }
+
+        .btn-bottom-call {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            color: var(--text-ivory);
+        }
+
+        /* --- MODAL DIALOG --- */
+        .modal-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.85);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+            padding: 20px;
+        }
+
+        .modal-overlay.active {
+            display: flex;
+        }
+
+        .modal-card {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            max-width: 480px;
+            width: 100%;
+            padding: 24px;
+            position: relative;
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            background: transparent;
+            color: var(--text-ivory);
+            font-size: 1.2rem;
+        }
+
+        /* --- LIGHTBOX MODAL --- */
+        .lightbox-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.95);
+            display: none;
+            flex-direction: column;
+            z-index: 1100;
+            padding: 20px;
+        }
+
+        .lightbox-overlay.active {
+            display: flex;
+        }
+
+        .lightbox-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: var(--text-ivory);
+            padding-bottom: 12px;
+        }
+
+        .lightbox-content {
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .lightbox-img {
+            max-width: 100%;
+            max-height: 70vh;
+            border-radius: 4px;
+            border: 1px solid var(--border-color);
+            object-fit: contain;
+        }
+
+        .lightbox-footer {
+            padding-top: 14px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+        }
+
+        /* --- MOBILE DRAWER --- */
+        .mobile-drawer {
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            width: 280px;
+            background: var(--bg-secondary);
+            border-right: 1px solid var(--border-color);
+            z-index: 200;
+            transform: translateX(-100%);
+            transition: transform 0.3s ease;
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .mobile-drawer.open {
+            transform: translateX(0);
+        }
+
+        .drawer-backdrop {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: 199;
+            display: none;
+        }
+
+        .drawer-backdrop.active {
+            display: block;
+        }
+
+        .drawer-links {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            margin-top: 24px;
+        }
+
+        .drawer-links a {
+            font-family: var(--font-serif);
+            font-size: 1.05rem;
+            color: var(--text-ivory);
+            display: block;
+            transition: color 0.2s;
+        }
+
+        .drawer-links a:hover {
+            color: var(--gold-antique);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- STICKY NAVBAR -->
+    <header class="site-header">
+        <div class="header-content">
+            <div class="brand-logo" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+                <img src="/assets/img_app_icon.jpg" alt="The Colours Tattoo Studio Logo" class="brand-crest">
+                <div class="brand-titles">
+                    <h1>THE COLOURS</h1>
+                    <span>TATTOO STUDIO — NASHIK</span>
+                </div>
+            </div>
+            <div class="header-actions">
+                <a href="https://wa.me/917976234747?text=Hello%20Shekhar%20Nayak,%20I%20would%20like%20to%20enquire%20about%20getting%20a%20tattoo." class="btn-enquire-sm">ENQUIRE</a>
+                <button class="menu-toggle" onclick="toggleDrawer(true)" aria-label="Open Navigation Menu">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- MOBILE DRAWER -->
+    <div class="drawer-backdrop" id="drawerBackdrop" onclick="toggleDrawer(false)"></div>
+    <nav class="mobile-drawer" id="mobileDrawer">
+        <div>
+            <div style="display: flex; justify-content: space-between; align-items: center; padding-bottom: 16px; border-bottom: 1px solid var(--border-color);">
+                <div style="display: flex; align-items: center; gap: 8px;">
+                    <img src="/assets/img_app_icon.jpg" alt="Logo" style="width: 32px; height: 32px; border-radius: 50%; border: 1px solid var(--gold-antique);">
+                    <span style="font-family: var(--font-serif); font-size: 0.9rem; color: var(--text-ivory); font-weight: 700;">THE COLOURS</span>
+                </div>
+                <button onclick="toggleDrawer(false)" style="background: transparent; color: var(--text-ivory); padding: 4px;">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+                </button>
+            </div>
+            <div class="drawer-links">
+                <a href="#hero" onclick="toggleDrawer(false)">Home</a>
+                <a href="#about" onclick="toggleDrawer(false)">About Studio</a>
+                <a href="#artist" onclick="toggleDrawer(false)">The Artist</a>
+                <a href="#specialities" onclick="toggleDrawer(false)">Specialities</a>
+                <a href="#styles" onclick="toggleDrawer(false)">Tattoo Styles</a>
+                <a href="#gallery" onclick="toggleDrawer(false)">Gallery</a>
+                <a href="#academy" onclick="toggleDrawer(false)">Tattoo Academy</a>
+                <a href="#process" onclick="toggleDrawer(false)">Tattoo Process</a>
+                <a href="#hygiene" onclick="toggleDrawer(false)">Hygiene & Safety</a>
+                <a href="#reviews" onclick="toggleDrawer(false)">Client Reviews</a>
+                <a href="#faq" onclick="toggleDrawer(false)">FAQ</a>
+                <a href="#contact" onclick="toggleDrawer(false)">Contact & Location</a>
+            </div>
+        </div>
+        <div style="padding-top: 20px; border-top: 1px solid var(--border-color);">
+            <p style="font-size: 0.75rem; color: var(--gold-antique); margin-bottom: 4px; font-weight: 600;">SHEKHAR NAYAK</p>
+            <p style="font-size: 0.72rem; color: var(--text-secondary);">9+ Years Professional Tattooing</p>
+        </div>
+    </nav>
+
+    <!-- MAIN CONTENT WRAPPER -->
+    <main>
+        <!-- 1. HERO SECTION -->
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <div class="hero-banner-wrapper">
+                    <img src="/assets/img_hero_tattoo.jpg" alt="The Colours Tattoo Studio Craftsmanship">
+                    <div class="hero-banner-overlay"></div>
+                </div>
+
+                <div class="pill-badge" style="margin-bottom: 14px;">9+ Years of Professional Tattooing</div>
+
+                <div class="hero-content">
+                    <h2>“Where Your Story Becomes Art.”</h2>
+                    <p class="hero-quote">Your Idea. Your Story. Your Tattoo.</p>
+                    <p>Premium custom tattooing in Nashik, crafted with precision, creativity, and personal meaning. Led by Shekhar Nayak with over 9+ years of professional tattooing experience.</p>
+                    
+                    <div class="hero-ctas">
+                        <a href="https://wa.me/917976234747?text=Hello%20Shekhar%20Nayak,%20I%20saw%20your%20work%20at%20The%20Colours%20Tattoo%20Studio%20and%20would%20like%20to%20discuss%20my%20tattoo%20idea." class="btn-gold">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+                            WHATSAPP NOW
+                        </a>
+                        <button onclick="openCallModal()" class="btn-outline">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                            CALL NOW
+                        </button>
+                        <a href="#gallery" class="btn-outline btn-outline-gold">VIEW OUR WORK</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. ABOUT SECTION -->
+        <section id="about">
+            <div class="container">
+                <span class="section-tag">Studio Philosophy</span>
+                <h2 class="section-title">ABOUT THE COLOURS TATTOO STUDIO</h2>
+                <div class="luxury-card">
+                    <p style="color: var(--text-ivory); font-size: 1.05rem; line-height: 1.7; margin-bottom: 14px;">
+                        The Colours Tattoo Studio is a premium tattoo studio located in Nashik, Maharashtra, founded and led by Shekhar Nayak.
+                    </p>
+                    <p style="color: var(--text-secondary); line-height: 1.7; margin-bottom: 14px;">
+                        The studio focuses on delivering a personalised tattoo experience, creating custom tattoo concepts that reflect the client's ideas, stories, references, and personal meaning.
+                    </p>
+                    <p style="color: var(--text-secondary); line-height: 1.7; margin-bottom: 20px;">
+                        With over 9+ years of professional tattooing experience, Shekhar Nayak combines artistic quality, hygiene discipline, technical precision, and careful attention to detail for every tattoo project.
+                    </p>
+                    <a href="https://wa.me/917976234747?text=Hello%20Shekhar%20Nayak,%20I%20would%20like%20to%20enquire%20about%20custom%20tattoo%20design%20options." class="btn-outline btn-outline-gold">ENQUIRE NOW</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. ARTIST PROFILE -->
+        <section id="artist">
+            <div class="container">
+                <span class="section-tag">Founder & Master Artist</span>
+                <h2 class="section-title">THE ARTIST — SHEKHAR NAYAK</h2>
+                <div class="luxury-card artist-card">
+                    <div class="artist-img-wrapper">
+                        <img src="/assets/img_concept_portrait.jpg" alt="Shekhar Nayak Tattoo Artist Portrait">
+                        <div class="coming-soon-ribbon">ARTIST PHOTOGRAPH COMING SOON</div>
+                    </div>
+                    <div>
+                        <div class="pill-badge" style="margin-bottom: 10px;">Founder & Lead Artist</div>
+                        <h3 style="font-family: var(--font-serif); font-size: 1.6rem; color: var(--text-ivory); margin-bottom: 4px;">Shekhar Nayak</h3>
+                        <p style="color: var(--gold-antique); font-size: 0.85rem; font-weight: 600; letter-spacing: 1px; margin-bottom: 14px;">9+ YEARS OF PROFESSIONAL TATTOOING</p>
+                        
+                        <p style="color: var(--text-secondary); line-height: 1.65; margin-bottom: 14px;">
+                            Shekhar Nayak is the founder and lead artist at The Colours Tattoo Studio, bringing over 9+ years of dedicated professional tattoo experience in Nashik.
+                        </p>
+                        <p style="color: var(--text-secondary); line-height: 1.65; margin-bottom: 18px;">
+                            Known for taking time with each client, Shekhar listens carefully to ideas, refines references, and crafts artwork tailored to each person's vision.
+                        </p>
+
+                        <div class="qualities-grid">
+                            <div class="quality-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Artistic Vision</div>
+                            <div class="quality-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Creativity</div>
+                            <div class="quality-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Attention to Detail</div>
+                            <div class="quality-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Custom Design</div>
+                            <div class="quality-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Professionalism</div>
+                        </div>
+
+                        <div style="margin-top: 22px;">
+                            <a href="https://wa.me/917976234747?text=Hello%20Shekhar%20Nayak,%20I%20would%20like%20to%20consult%20with%20you%20directly." class="btn-gold">WHATSAPP NOW</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. SPECIALITIES -->
+        <section id="specialities">
+            <div class="container">
+                <span class="section-tag">Key Expertise</span>
+                <h2 class="section-title">OUR SPECIALITIES</h2>
+                <p class="section-subtitle">Three dedicated craft pillars built on rigorous technique, creative vision, and skin anatomy understanding.</p>
+
+                <div class="specialities-grid">
+                    <div class="luxury-card spec-card">
+                        <div>
+                            <span class="section-tag">Transformation</span>
+                            <h3>COVER-UP TATTOOS</h3>
+                            <p>Specialised cover-up solutions designed to transform, conceal, or rework existing unwanted tattoos through creative placement, tone balance, and thoughtful redesign.</p>
+                        </div>
+                        <a href="https://wa.me/917976234747?text=Hello%20Shekhar%20Nayak,%20I%20would%20like%20to%20enquire%20about%20a%20Cover-Up%20Tattoo." class="btn-outline btn-outline-gold">ENQUIRE COVER-UP</a>
+                    </div>
+
+                    <div class="luxury-card spec-card">
+                        <div>
+                            <span class="section-tag">Original Artwork</span>
+                            <h3>CUSTOMISED TATTOOS</h3>
+                            <p>Original tattoo concepts developed collaboratively around your personal story, inspirations, aesthetics, and preferred body placement.</p>
+                        </div>
+                        <a href="https://wa.me/917976234747?text=Hello%20Shekhar%20Nayak,%20I%20would%20like%20to%20enquire%20about%20a%20Customised%20Tattoo." class="btn-outline btn-outline-gold">ENQUIRE CUSTOM DESIGN</a>
+                    </div>
+
+                    <div class="luxury-card spec-card">
+                        <div>
+                            <span class="section-tag">Precision Realism</span>
+                            <h3>PORTRAIT TATTOOS</h3>
+                            <p>Detailed portrait artwork capturing likeness, expression, depth, and character with a strong focus on facial anatomy, soft transitions, and proportion.</p>
+                        </div>
+                        <a href="https://wa.me/917976234747?text=Hello%20Shekhar%20Nayak,%20I%20would%20like%20to%20enquire%20about%20a%20Portrait%20Tattoo." class="btn-outline btn-outline-gold">ENQUIRE PORTRAIT</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. 12 TATTOO STYLES -->
+        <section id="styles">
+            <div class="container">
+                <span class="section-tag">Aesthetic Disciplines</span>
+                <h2 class="section-title">TATTOO STYLES</h2>
+                <p class="section-subtitle">We craft a wide spectrum of tattooing styles. Availability and design options are discussed individually during consultation.</p>
+
+                <div class="styles-grid">
+                    <div class="style-card" onclick="enquireStyle('Black & Grey')">
+                        <h4>Black & Grey</h4>
+                        <p>Classic shading, smooth gradients, and timeless depth.</p>
+                    </div>
+                    <div class="style-card" onclick="enquireStyle('Realism')">
+                        <h4>Realism</h4>
+                        <p>Lifelike representation of subjects, textures, and dimensions.</p>
+                    </div>
+                    <div class="style-card" onclick="enquireStyle('Portrait')">
+                        <h4>Portrait</h4>
+                        <p>Detailed facial likeness, expressions, and human or pet portraits.</p>
+                    </div>
+                    <div class="style-card" onclick="enquireStyle('Minimal')">
+                        <h4>Minimal</h4>
+                        <p>Subtle, clean, and elegant tattoos with understated presence.</p>
+                    </div>
+                    <div class="style-card" onclick="enquireStyle('Fine Line')">
+                        <h4>Fine Line</h4>
+                        <p>Delicate, high-precision lines, intricate geometry, and soft detail.</p>
+                    </div>
+                    <div class="style-card" onclick="enquireStyle('Lettering')">
+                        <h4>Lettering & Script</h4>
+                        <p>Meaningful quotes, names, dates, and custom artistic typography.</p>
+                    </div>
+                    <div class="style-card" onclick="enquireStyle('Geometric')">
+                        <h4>Geometric</h4>
+                        <p>Symmetry, sacred geometry, dotwork, and architectural shapes.</p>
+                    </div>
+                    <div class="style-card" onclick="enquireStyle('Traditional')">
+                        <h4>Traditional</h4>
+                        <p>Bold outlines, iconic motifs, and rich enduring character.</p>
+                    </div>
+                    <div class="style-card" onclick="enquireStyle('Custom Designs')">
+                        <h4>Custom Designs</h4>
+                        <p>Unique concepts created specifically from your imagination.</p>
+                    </div>
+                    <div class="style-card" onclick="enquireStyle('Cover-Up')">
+                        <h4>Cover-Up</h4>
+                        <p>Artistic redesign and masking of older or faded tattoos.</p>
+                    </div>
+                    <div class="style-card" onclick="enquireStyle('Colour Tattoos')">
+                        <h4>Colour Tattoos</h4>
+                        <p>Vibrant pigment work, saturated tones, and colour blending.</p>
+                    </div>
+                    <div class="style-card" onclick="enquireStyle('Abstract')">
+                        <h4>Abstract</h4>
+                        <p>Creative expressive forms, brushstrokes, and conceptual art.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. GALLERY (8 SLOTS WITH LIGHTBOX) -->
+        <section id="gallery">
+            <div class="container">
+                <span class="section-tag">Visual Portfolio</span>
+                <h2 class="section-title">STUDIO GALLERY</h2>
+                <p class="section-subtitle">Explore design concepts and studio pieces. Tap any slot to view enlarged details or consult with Shekhar Nayak.</p>
+
+                <!-- Filter Chips -->
+                <div class="filter-chips">
+                    <button class="chip active" onclick="filterGallery('ALL')">ALL</button>
+                    <button class="chip" onclick="filterGallery('BLACK & GREY')">BLACK & GREY</button>
+                    <button class="chip" onclick="filterGallery('REALISM')">REALISM</button>
+                    <button class="chip" onclick="filterGallery('PORTRAIT')">PORTRAIT</button>
+                    <button class="chip" onclick="filterGallery('MINIMAL')">MINIMAL</button>
+                    <button class="chip" onclick="filterGallery('FINE LINE')">FINE LINE</button>
+                    <button class="chip" onclick="filterGallery('COVER-UP')">COVER-UP</button>
+                </div>
+
+                <!-- 8 Gallery Slots -->
+                <div class="gallery-grid" id="galleryGrid">
+                    <div class="gallery-item" data-cat="PORTRAIT" onclick="openLightbox(0)">
+                        <img src="/assets/img_concept_portrait.jpg" alt="Portrait Realism Tattoo Slot 1">
+                        <div class="gallery-badge">AI CONCEPT</div>
+                        <div class="gallery-overlay">
+                            <h5>Portrait Realism</h5>
+                            <span>Slot 01 — Portrait</span>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-cat="REALISM" onclick="openLightbox(1)">
+                        <img src="/assets/img_concept_realism.jpg" alt="Fine Realism Tattoo Slot 2">
+                        <div class="gallery-badge">AI CONCEPT</div>
+                        <div class="gallery-overlay">
+                            <h5>Precision Realism</h5>
+                            <span>Slot 02 — Realism</span>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-cat="FINE LINE" onclick="openLightbox(2)">
+                        <img src="/assets/img_concept_fineline.jpg" alt="Fine Line Botanical Slot 3">
+                        <div class="gallery-badge">AI CONCEPT</div>
+                        <div class="gallery-overlay">
+                            <h5>Botanical Fine Line</h5>
+                            <span>Slot 03 — Fine Line</span>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-cat="COVER-UP" onclick="openLightbox(3)">
+                        <img src="/assets/img_hero_tattoo.jpg" alt="Custom Cover-Up Slot 4">
+                        <div class="gallery-badge">AI CONCEPT</div>
+                        <div class="gallery-overlay">
+                            <h5>Cover-Up Concept</h5>
+                            <span>Slot 04 — Cover-Up</span>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-cat="BLACK & GREY" onclick="openLightbox(4)">
+                        <img src="/assets/img_concept_realism.jpg" alt="Black & Grey Shading Slot 5">
+                        <div class="gallery-badge">AI CONCEPT</div>
+                        <div class="gallery-overlay">
+                            <h5>Mythological Shade</h5>
+                            <span>Slot 05 — Black & Grey</span>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-cat="MINIMAL" onclick="openLightbox(5)">
+                        <img src="/assets/img_concept_fineline.jpg" alt="Minimal Geometry Slot 6">
+                        <div class="gallery-badge">AI CONCEPT</div>
+                        <div class="gallery-overlay">
+                            <h5>Geometric Minimal</h5>
+                            <span>Slot 06 — Minimal</span>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-cat="PORTRAIT" onclick="openLightbox(6)">
+                        <img src="/assets/img_concept_portrait.jpg" alt="Micro Portrait Slot 7">
+                        <div class="gallery-badge">AI CONCEPT</div>
+                        <div class="gallery-overlay">
+                            <h5>Character Study</h5>
+                            <span>Slot 07 — Portrait</span>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-cat="BLACK & GREY" onclick="openLightbox(7)">
+                        <img src="/assets/img_hero_tattoo.jpg" alt="Custom Composition Slot 8">
+                        <div class="gallery-badge">AI CONCEPT</div>
+                        <div class="gallery-overlay">
+                            <h5>Sleeve Composition</h5>
+                            <span>Slot 08 — Custom</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="margin-top: 24px; text-align: center;">
+                    <p style="color: var(--text-secondary); font-size: 0.8rem; margin-bottom: 12px;">“AI CONCEPT — DESIGN INSPIRATION”</p>
+                    <a href="https://wa.me/917976234747?text=Hello%20Shekhar%20Nayak,%20I%20have%20a%20custom%20tattoo%20concept%20and%20would%20love%20to%20discuss%20it." class="btn-gold">CREATE YOUR CUSTOM TATTOO</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. TATTOO ACADEMY -->
+        <section id="academy">
+            <div class="container">
+                <span class="section-tag">Future Education</span>
+                <h2 class="section-title">THE COLOURS TATTOO ACADEMY</h2>
+                <div class="luxury-card" style="text-align: center; padding: 36px 20px;">
+                    <img src="/assets/img_app_icon.jpg" alt="Emblem" style="width: 70px; height: 70px; border-radius: 50%; border: 1.5px solid var(--gold-antique); margin: 0 auto 16px auto; display: block;">
+                    <h3 style="font-family: var(--font-serif); font-size: 1.4rem; color: var(--text-ivory); margin-bottom: 8px;">THE COLOURS TATTOO ACADEMY</h3>
+                    <div class="pill-badge" style="margin-bottom: 16px;">ACADEMY DETAILS COMING SOON</div>
+                    <p style="color: var(--text-secondary); max-width: 600px; margin: 0 auto 24px auto; line-height: 1.65;">
+                        Interested in learning the art, hygiene discipline, and craft of professional tattooing? Get in touch with Shekhar Nayak to receive priority updates once academy schedules and program details are officially announced.
+                    </p>
+                    <a href="https://wa.me/917976234747?text=Hello%20Shekhar%20Nayak,%20I%20would%20like%20to%20enquire%20about%20The%20Colours%20Tattoo%20Academy%20details." class="btn-outline btn-outline-gold">ENQUIRE ABOUT THE ACADEMY</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. PROCESS (5 STEPS) -->
+        <section id="process">
+            <div class="container">
+                <span class="section-tag">The Experience</span>
+                <h2 class="section-title">TATTOO PROCESS</h2>
+                <p class="section-subtitle">A thoughtful, transparent 5-step journey ensuring comfort, clarity, and exceptional results.</p>
+
+                <div class="timeline">
+                    <div class="timeline-step">
+                        <div class="step-num">01</div>
+                        <div class="step-body">
+                            <h4>CONSULTATION</h4>
+                            <p>Tell us about your tattoo idea, reference, meaning, size and preferred placement.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-step">
+                        <div class="step-num">02</div>
+                        <div class="step-body">
+                            <h4>DESIGN</h4>
+                            <p>We discuss the concept and customise the design according to your requirements.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-step">
+                        <div class="step-num">03</div>
+                        <div class="step-body">
+                            <h4>PLACEMENT</h4>
+                            <p>The size and placement are planned according to the body area and tattoo design.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-step">
+                        <div class="step-num">04</div>
+                        <div class="step-body">
+                            <h4>TATTOO SESSION</h4>
+                            <p>Once everything is finalised, the tattooing session begins in a professional studio environment.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-step">
+                        <div class="step-num">05</div>
+                        <div class="step-body">
+                            <h4>AFTERCARE</h4>
+                            <p>After completing the tattoo, you receive basic aftercare guidance for the healing process.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="https://wa.me/917976234747?text=Hello%20Shekhar%20Nayak,%20I%20am%20ready%20to%20start%20my%20tattoo%20journey." class="btn-gold" style="width: 100%;">START YOUR TATTOO JOURNEY</a>
+            </div>
+        </section>
+
+        <!-- 9. HYGIENE & SAFETY -->
+        <section id="hygiene">
+            <div class="container">
+                <span class="section-tag">Safety & Protocol</span>
+                <h2 class="section-title">CLEAN. PROFESSIONAL. RESPONSIBLE.</h2>
+                <div class="luxury-card">
+                    <div class="checklist">
+                        <div class="check-item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg><p>Clean and organised tattooing environment</p></div>
+                        <div class="check-item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg><p>Proper preparation of the tattoo area</p></div>
+                        <div class="check-item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg><p>Fresh, sterile, single-use tattoo needles for each client</p></div>
+                        <div class="check-item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg><p>Appropriate disposable supplies where required</p></div>
+                        <div class="check-item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg><p>Proper handling of tattoo equipment and consumables</p></div>
+                        <div class="check-item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg><p>Clean workstation preparation</p></div>
+                        <div class="check-item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg><p>Responsible disposal of used tattoo-related materials</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 10. TATTOO AFTERCARE -->
+        <section id="aftercare">
+            <div class="container">
+                <span class="section-tag">Healing Guidance</span>
+                <h2 class="section-title">TATTOO AFTERCARE</h2>
+                <div class="luxury-card">
+                    <div class="checklist">
+                        <div class="check-item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg><p>Keep the tattoo clean and follow the artist's instructions</p></div>
+                        <div class="check-item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg><p>Avoid unnecessary touching or scratching</p></div>
+                        <div class="check-item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg><p>Avoid picking or removing healing skin</p></div>
+                        <div class="check-item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg><p>Avoid excessive soaking or swimming during healing</p></div>
+                        <div class="check-item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg><p>Protect the tattoo from excessive direct sunlight while healing</p></div>
+                        <div class="check-item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg><p>Follow the specific aftercare instructions provided by the artist</p></div>
+                    </div>
+
+                    <div class="medical-notice">
+                        “If you experience an unusual reaction or have concerns during healing, seek advice from a qualified medical professional.”
+                    </div>
+
+                    <div style="margin-top: 20px;">
+                        <a href="https://wa.me/917976234747?text=Hello%20Shekhar%20Nayak,%20I%20have%20a%20question%20regarding%20my%20tattoo%20healing%20and%20aftercare." class="btn-gold" style="width: 100%;">NEED AFTERCARE HELP? WHATSAPP US</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 11. WHY CHOOSE THE COLOURS -->
+        <section id="why-choose">
+            <div class="container">
+                <span class="section-tag">The Difference</span>
+                <h2 class="section-title">WHY CHOOSE THE COLOURS</h2>
+                <div class="specialities-grid">
+                    <div class="luxury-card">
+                        <span class="section-tag">EXPERTISE</span>
+                        <h4 style="font-family: var(--font-serif); font-size: 1.15rem; color: var(--text-ivory); margin-bottom: 6px;">9+ YEARS OF EXPERIENCE</h4>
+                        <p style="color: var(--text-secondary); font-size: 0.88rem;">Professional tattooing experience led by Shekhar Nayak.</p>
+                    </div>
+                    <div class="luxury-card">
+                        <span class="section-tag">ORIGINALITY</span>
+                        <h4 style="font-family: var(--font-serif); font-size: 1.15rem; color: var(--text-ivory); margin-bottom: 6px;">CUSTOM ARTWORK</h4>
+                        <p style="color: var(--text-secondary); font-size: 0.88rem;">Tattoo concepts developed around the client's idea and preferences.</p>
+                    </div>
+                    <div class="luxury-card">
+                        <span class="section-tag">MASTERY</span>
+                        <h4 style="font-family: var(--font-serif); font-size: 1.15rem; color: var(--text-ivory); margin-bottom: 6px;">COVER-UP SPECIALISATION</h4>
+                        <p style="color: var(--text-secondary); font-size: 0.88rem;">Creative cover-up solutions based on the existing tattoo and desired result.</p>
+                    </div>
+                    <div class="luxury-card">
+                        <span class="section-tag">PRECISION</span>
+                        <h4 style="font-family: var(--font-serif); font-size: 1.15rem; color: var(--text-ivory); margin-bottom: 6px;">PORTRAIT SPECIALISATION</h4>
+                        <p style="color: var(--text-secondary); font-size: 0.88rem;">Detailed portrait tattoo work with focus on proportion and artistic interpretation.</p>
+                    </div>
+                    <div class="luxury-card">
+                        <span class="section-tag">CARE</span>
+                        <h4 style="font-family: var(--font-serif); font-size: 1.15rem; color: var(--text-ivory); margin-bottom: 6px;">PERSONAL CONSULTATION</h4>
+                        <p style="color: var(--text-secondary); font-size: 0.88rem;">Understand client ideas, meaning, references and requirements before the session.</p>
+                    </div>
+                    <div class="luxury-card">
+                        <span class="section-tag">HYGIENE</span>
+                        <h4 style="font-family: var(--font-serif); font-size: 1.15rem; color: var(--text-ivory); margin-bottom: 6px;">PROFESSIONAL ENVIRONMENT</h4>
+                        <p style="color: var(--text-secondary); font-size: 0.88rem;">Clean, organised and professional studio experience.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 12. CLIENT REVIEWS (15 TESTIMONIALS + CLEAN GOOGLE REVIEW BUTTON) -->
+        <section id="reviews">
+            <div class="container">
+                <span class="section-tag">Client Words</span>
+                <h2 class="section-title">CLIENT REVIEWS</h2>
+
+                <div class="testimonial-slider">
+                    <div class="t-stars">★★★★★</div>
+                    <p class="t-quote" id="tQuote">“Bhai ne tattoo ekdum clean banaya! Finishing bohot sahi aayi aur finishing dekh ke maza aa gaya.”</p>
+                    <div class="t-author">
+                        <div class="t-avatar" id="tAvatar">A</div>
+                        <div>
+                            <div class="t-name" id="tName">Aarav Sharma</div>
+                            <span style="font-size: 0.72rem; color: var(--gold-antique);" id="tId">Testimonial 1 of 15</span>
+                        </div>
+                    </div>
+
+                    <div class="slider-controls">
+                        <button class="btn-icon" onclick="prevReview()">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+                        </button>
+                        <span style="font-size: 0.75rem; color: var(--gold-antique);" id="tCounter">1 / 15</span>
+                        <button class="btn-icon" onclick="nextReview()">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- GOOGLE REVIEW BOX (SMALL, CLEAN, NON-DOMINANT BUTTON AS REQUESTED) -->
+                <div class="google-review-box">
+                    <div style="color: var(--gold-antique); margin-bottom: 6px; font-size: 0.85rem;">★★★★★</div>
+                    <h3 style="font-family: var(--font-serif); font-size: 1.25rem; color: var(--text-ivory); margin-bottom: 4px;">GIVE US A REVIEW</h3>
+                    <p style="color: var(--text-secondary); font-size: 0.85rem; max-width: 500px; margin: 0 auto;">“Had an experience with The Colours Tattoo Studio? Your review helps more people discover our studio online.”</p>
+                    
+                    <a href="https://maps.app.goo.gl/jvi92n73G8gtYf1v9" target="_blank" rel="noopener noreferrer" class="btn-google-review">
+                        ⭐ REVIEW US ON GOOGLE
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 13. INSTAGRAM -->
+        <section id="instagram">
+            <div class="container">
+                <div class="luxury-card" style="text-align: center; padding: 32px 20px;">
+                    <span class="section-tag">FOLLOW OUR WORK</span>
+                    <h3 style="font-family: var(--font-serif); font-size: 1.4rem; color: var(--text-ivory); margin-bottom: 6px;">The Colours Tattooz</h3>
+                    <p style="color: var(--text-secondary); font-size: 0.88rem; max-width: 500px; margin: 0 auto 18px auto;">
+                        Stay connected with daily studio stories, fresh tattoo projects, and client healing updates directly on our official Instagram channel.
+                    </p>
+                    <a href="https://www.instagram.com/the_colours_tattooz?stkn=a3IzcXp6ZTY2aThn" target="_blank" rel="noopener noreferrer" class="btn-outline btn-outline-gold">
+                        FOLLOW US ON INSTAGRAM
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 14. FAQ ACCORDION -->
+        <section id="faq">
+            <div class="container">
+                <span class="section-tag">Common Inquiries</span>
+                <h2 class="section-title">FREQUENTLY ASKED QUESTIONS</h2>
+
+                <div class="faq-list">
+                    <div class="faq-item active">
+                        <div class="faq-header" onclick="toggleFaq(this)">
+                            <span>Do I need an appointment?</span>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                        </div>
+                        <div class="faq-body">
+                            Appointments are recommended, especially for larger or detailed tattoos. Contact the studio to discuss availability.
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-header" onclick="toggleFaq(this)">
+                            <span>Can I bring my own tattoo reference?</span>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                        </div>
+                        <div class="faq-body">
+                            Yes. You can share your reference, idea or inspiration with the artist.
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-header" onclick="toggleFaq(this)">
+                            <span>Can you create a customised tattoo?</span>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                        </div>
+                        <div class="faq-body">
+                            Yes. Customised tattoos are one of the studio's specialities.
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-header" onclick="toggleFaq(this)">
+                            <span>Do you do cover-up tattoos?</span>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                        </div>
+                        <div class="faq-body">
+                            Yes. Cover-up possibilities depend on the existing tattoo, its size, colour, placement and the desired new design.
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-header" onclick="toggleFaq(this)">
+                            <span>Do you do portrait tattoos?</span>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                        </div>
+                        <div class="faq-body">
+                            Yes. Portrait tattoos are one of the studio's specialities.
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-header" onclick="toggleFaq(this)">
+                            <span>How much does a tattoo cost?</span>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                        </div>
+                        <div class="faq-body">
+                            Pricing depends on the design, size, placement, detailing and session requirements. Final pricing can be discussed after understanding your requirements.
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-header" onclick="toggleFaq(this)">
+                            <span>How long does a tattoo session take?</span>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                        </div>
+                        <div class="faq-body">
+                            Session time depends on the size, design, placement, level of detail and individual requirements.
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-header" onclick="toggleFaq(this)">
+                            <span>Do you provide aftercare instructions?</span>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                        </div>
+                        <div class="faq-body">
+                            Yes. Basic aftercare guidance is provided after the tattoo session.
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-header" onclick="toggleFaq(this)">
+                            <span>Can I discuss my tattoo idea before getting it?</span>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                        </div>
+                        <div class="faq-body">
+                            Yes. Contact the studio through WhatsApp or phone to discuss your idea.
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-header" onclick="toggleFaq(this)">
+                            <span>Do you have a tattoo academy?</span>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                        </div>
+                        <div class="faq-body">
+                            ACADEMY DETAILS COMING SOON.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 15. CONTACT SECTION -->
+        <section id="contact">
+            <div class="container">
+                <span class="section-tag">Studio Location & Inquiries</span>
+                <h2 class="section-title">CONTACT THE COLOURS TATTOO STUDIO</h2>
+
+                <div class="luxury-card">
+                    <div class="contact-details">
+                        <div class="contact-row">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                            <div>
+                                <label>FOUNDER & TATTOO ARTIST</label>
+                                <strong>Shekhar Nayak</strong>
+                                <p>9+ Years of Professional Tattooing</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-row">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                            <div>
+                                <label>PHONE</label>
+                                <p><a href="tel:7976234747" style="color: var(--text-ivory); font-weight: 600;">7976234747</a> &nbsp;/&nbsp; <a href="tel:9860158785" style="color: var(--text-ivory); font-weight: 600;">9860158785</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-row">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+                            <div>
+                                <label>WHATSAPP</label>
+                                <p><a href="https://wa.me/917976234747" style="color: var(--text-ivory); font-weight: 600;">+91 7976234747</a></p>
+                                <p style="font-size: 0.75rem; color: var(--gold-antique);">Fastest response for designs & consultations</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-row">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            <div>
+                                <label>ADDRESS</label>
+                                <p style="color: var(--text-ivory); font-size: 0.95rem; line-height: 1.5;">
+                                    Shubham Complex, Multi Dham / Near Mukti Dham Mandir,<br>
+                                    Rajwada Nagar, Bitco Point,<br>
+                                    Nashik Road, Nashik,<br>
+                                    Maharashtra 422101
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; flex-direction: column; gap: 10px; margin-top: 24px;">
+                        <a href="https://wa.me/917976234747?text=Hello%20Shekhar%20Nayak,%20I%20would%20like%20to%20discuss%20a%20tattoo%20idea." class="btn-gold">WHATSAPP NOW</a>
+                        <div style="display: flex; gap: 10px;">
+                            <button onclick="openCallModal()" class="btn-outline" style="flex: 1;">CALL NOW</button>
+                            <a href="https://maps.app.goo.gl/jvi92n73G8gtYf1v9" target="_blank" rel="noopener noreferrer" class="btn-outline btn-outline-gold" style="flex: 1;">GET DIRECTIONS</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container">
+            <img src="/assets/img_app_icon.jpg" alt="Logo Crest" class="footer-logo">
+            <h3 style="font-family: var(--font-serif); font-size: 1.15rem; color: var(--text-ivory); letter-spacing: 1px; margin-bottom: 2px;">THE COLOURS</h3>
+            <p style="color: var(--gold-antique); font-size: 0.7rem; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 8px;">TATTOO STUDIO — NASHIK</p>
+            <p style="font-family: var(--font-serif); font-style: italic; color: var(--text-ivory); font-size: 0.9rem; margin-bottom: 18px;">“Where Your Story Becomes Art.”</p>
+            
+            <div class="footer-links">
+                <a href="#hero">HOME</a>
+                <a href="#about">ABOUT</a>
+                <a href="#artist">ARTIST</a>
+                <a href="#specialities">SPECIALITIES</a>
+                <a href="#styles">STYLES</a>
+                <a href="#gallery">GALLERY</a>
+                <a href="#process">PROCESS</a>
+                <a href="#contact">CONTACT</a>
+            </div>
+
+            <p class="footer-seo">Tattoo Studio in Nashik • Tattoo Artist in Nashik Road • Custom Tattoos • Cover-Up • Realism • Fine Line • Minimal Tattoos</p>
+            <p class="footer-copy">© The Colours Tattoo Studio. Shekhar Nayak. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- FIXED BOTTOM BAR (MOBILE) -->
+    <div class="bottom-action-bar">
+        <a href="https://wa.me/917976234747?text=Hello%20Shekhar%20Nayak,%20I%20would%20like%20to%20consult%20about%20a%20tattoo%20design." class="btn-bottom-wa">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+            WHATSAPP
+        </a>
+        <button onclick="openCallModal()" class="btn-bottom-call">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            CALL
+        </button>
+    </div>
+
+    <!-- CALL MODAL -->
+    <div class="modal-overlay" id="callModal" onclick="closeCallModal(event)">
+        <div class="modal-card" onclick="event.stopPropagation()">
+            <button class="modal-close" onclick="closeCallModal()">&times;</button>
+            <h3 style="font-family: var(--font-serif); font-size: 1.25rem; color: var(--text-ivory); margin-bottom: 4px;">CALL THE STUDIO</h3>
+            <p style="color: var(--text-secondary); font-size: 0.82rem; margin-bottom: 18px;">Select a contact number to speak directly with Shekhar Nayak:</p>
+
+            <a href="tel:7976234747" style="display: block; background: var(--bg-card); border: 1px solid var(--gold-antique); padding: 14px; border-radius: 4px; margin-bottom: 10px;">
+                <div style="font-weight: 700; color: var(--text-ivory); font-size: 1rem;">PRIMARY — 7976234747</div>
+                <div style="font-size: 0.75rem; color: var(--text-secondary);">Direct Studio & Consultation Line</div>
+            </a>
+
+            <a href="tel:9860158785" style="display: block; background: var(--bg-card); border: 1px solid var(--border-color); padding: 14px; border-radius: 4px;">
+                <div style="font-weight: 600; color: var(--text-ivory); font-size: 1rem;">ALTERNATE — 9860158785</div>
+                <div style="font-size: 0.75rem; color: var(--text-secondary);">Secondary Contact Line</div>
+            </a>
+        </div>
+    </div>
+
+    <!-- LIGHTBOX MODAL -->
+    <div class="lightbox-overlay" id="lightboxModal">
+        <div class="lightbox-header">
+            <span id="lbCounter" style="font-size: 0.8rem; color: var(--gold-antique);">Slot 1 of 8</span>
+            <button onclick="closeLightbox()" style="background: transparent; color: var(--text-ivory); font-size: 1.6rem;">&times;</button>
+        </div>
+        <div class="lightbox-content">
+            <img src="" alt="Enlarged Tattoo Artwork" class="lightbox-img" id="lbImage">
+        </div>
+        <div class="lightbox-footer">
+            <h4 id="lbTitle" style="font-family: var(--font-serif); color: var(--text-ivory);">Portrait Realism</h4>
+            <a href="#" id="lbEnquireBtn" class="btn-gold" style="padding: 10px 20px; font-size: 0.8rem;">ENQUIRE ABOUT THIS STYLE</a>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT LOGIC -->
+    <script>
+        // 15 Authentic Client Testimonials
+        const testimonials = [
+            { id: 1, name: "Aarav Sharma", initial: "A", comment: "Bhai ne tattoo ekdum clean banaya! Finishing bohot sahi aayi aur finishing dekh ke maza aa gaya." },
+            { id: 2, name: "Rohan Kulkarni", initial: "R", comment: "Nashik me best tattoo artist hain Shekhar bhai. Hygiene aur detailing dono top notch." },
+            { id: 3, name: "Pooja Patil", initial: "P", comment: "Mera first tattoo tha, bohot nervous thi. But artist ne bohot ache se guide kiya aur pain bhi minimal laga." },
+            { id: 4, name: "Aditya Deshmukh", initial: "A", comment: "Custom design banwaya tha maine, exact jaisa socha tha waisa bana ke diya. Highly recommended!" },
+            { id: 5, name: "Sneha Wagh", initial: "S", comment: "Portrait tattoo banwaya tha apne father ka. Detailing dekh ke ghar wale bohot khush ho gaye." },
+            { id: 6, name: "Kunal Shinde", initial: "K", comment: "Cover up tattoo karwaya tha, purana tattoo bilkul gayab ho gaya. Super creative work!" },
+            { id: 7, name: "Neha Joshi", initial: "N", comment: "Clean studio, sterile equipment and very professional artist. 10/10 experience." },
+            { id: 8, name: "Vishal Pawar", initial: "V", comment: "Lines bohot sharp hain aur shading ekdum smooth. Shekhar bhai ka hand bohot stable hai." },
+            { id: 9, name: "Aniket More", initial: "A", comment: "Nashik Road pe best tattoo shop. Price bhi genuine hai work quality ke hisaab se." },
+            { id: 10, name: "Priyanka Gaikwad", initial: "P", comment: "Minimalist floral tattoo banwaya tha wrist pe, so beautiful and delicate! Loved it." },
+            { id: 11, name: "Sanket Jadhav", initial: "S", comment: "Bhai ka nature bohot humble hai aur kaam me koi compromise nahi. Best tattoo studio in town." },
+            { id: 12, name: "Mayur Bhamre", initial: "M", comment: "Aftercare guidance bhi bohot acche se samjhaya. Tattoo perfectly heal ho gaya bina kisi problem ke." },
+            { id: 13, name: "Divya Chaudhari", initial: "D", comment: "Fine line work bohot perfect karte hain. Nashik me aisi detailing kam hi dekhne ko milti hai." },
+            { id: 14, name: "Swapnil Sonawane", initial: "S", comment: "9 years ka experience sach me dikhta hai unke kaam me. Total satisfaction!" },
+            { id: 15, name: "Sahil Thakur", initial: "S", comment: "Ek number kaam! Next tattoo bhi idhar se hi banwaunga pakka." }
+        ];
+
+        let currentReviewIdx = 0;
+        function updateReview() {
+            const item = testimonials[currentReviewIdx];
+            document.getElementById('tQuote').innerText = '“' + item.comment + '”';
+            document.getElementById('tAvatar').innerText = item.initial;
+            document.getElementById('tName').innerText = item.name;
+            document.getElementById('tId').innerText = 'Testimonial ' + (currentReviewIdx + 1) + ' of 15';
+            document.getElementById('tCounter').innerText = (currentReviewIdx + 1) + ' / 15';
+        }
+
+        function nextReview() {
+            currentReviewIdx = (currentReviewIdx + 1) % testimonials.length;
+            updateReview();
+        }
+
+        function prevReview() {
+            currentReviewIdx = (currentReviewIdx - 1 + testimonials.length) % testimonials.length;
+            updateReview();
+        }
+
+        // FAQ Toggle
+        function toggleFaq(headerEl) {
+            const item = headerEl.parentElement;
+            item.classList.toggle('active');
+        }
+
+        // Mobile Drawer
+        function toggleDrawer(open) {
+            const drawer = document.getElementById('mobileDrawer');
+            const backdrop = document.getElementById('drawerBackdrop');
+            if (open) {
+                drawer.classList.add('open');
+                backdrop.classList.add('active');
+            } else {
+                drawer.classList.remove('open');
+                backdrop.classList.remove('active');
+            }
+        }
+
+        // Call Modal
+        function openCallModal() {
+            document.getElementById('callModal').classList.add('active');
+        }
+        function closeCallModal(e) {
+            document.getElementById('callModal').classList.remove('active');
+        }
+
+        // Lightbox
+        const galleryItems = [
+            { img: '/assets/img_concept_portrait.jpg', title: 'Portrait Realism', category: 'PORTRAIT' },
+            { img: '/assets/img_concept_realism.jpg', title: 'Precision Realism', category: 'REALISM' },
+            { img: '/assets/img_concept_fineline.jpg', title: 'Botanical Fine Line', category: 'FINE LINE' },
+            { img: '/assets/img_hero_tattoo.jpg', title: 'Cover-Up Concept', category: 'COVER-UP' },
+            { img: '/assets/img_concept_realism.jpg', title: 'Mythological Shade', category: 'BLACK & GREY' },
+            { img: '/assets/img_concept_fineline.jpg', title: 'Geometric Minimal', category: 'MINIMAL' },
+            { img: '/assets/img_concept_portrait.jpg', title: 'Character Study', category: 'PORTRAIT' },
+            { img: '/assets/img_hero_tattoo.jpg', title: 'Sleeve Composition', category: 'BLACK & GREY' }
+        ];
+
+        function openLightbox(index) {
+            const item = galleryItems[index];
+            document.getElementById('lbImage').src = item.img;
+            document.getElementById('lbTitle').innerText = item.title;
+            document.getElementById('lbCounter').innerText = 'Slot ' + (index + 1) + ' of ' + galleryItems.length;
+            document.getElementById('lbEnquireBtn').href = 'https://wa.me/917976234747?text=Hello%20Shekhar%20Nayak,%20I%20saw%20this%20design%20in%20your%20gallery%20(' + encodeURIComponent(item.title) + ')%20and%20would%20like%20to%20enquire.';
+            document.getElementById('lightboxModal').classList.add('active');
+        }
+
+        function closeLightbox() {
+            document.getElementById('lightboxModal').classList.remove('active');
+        }
+
+        function filterGallery(cat) {
+            document.querySelectorAll('.filter-chips .chip').forEach(c => c.classList.remove('active'));
+            event.target.classList.add('active');
+            const items = document.querySelectorAll('.gallery-grid .gallery-item');
+            items.forEach(el => {
+                if (cat === 'ALL' || el.getAttribute('data-cat') === cat) {
+                    el.style.display = 'block';
+                } else {
+                    el.style.display = 'none';
+                }
+            });
+        }
+
+        function enquireStyle(styleName) {
+            window.location.href = 'https://wa.me/917976234747?text=Hello%20Shekhar%20Nayak,%20I%20am%20interested%20in%20a%20' + encodeURIComponent(styleName) + '%20tattoo.%20Could%20we%20discuss%20size%20and%20placement?';
+        }
+    </script>
+</body>
+</html>

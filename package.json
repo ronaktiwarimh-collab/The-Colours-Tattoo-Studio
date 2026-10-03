@@ -1,0 +1,19 @@
+{
+  "name": "the-colours-tattoo-studio",
+  "version": "1.0.0",
+  "description": "The Colours Tattoo Studio - Official Website and Mobile Application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "echo 'Production build ready'"
+  },
+  "keywords": [
+    "tattoo",
+    "studio",
+    "nashik",
+    "shekhar-nayak"
+  ],
+  "author": "Shekhar Nayak",
+  "license": "ISC"
+}
