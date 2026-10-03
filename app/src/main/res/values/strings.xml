@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">The Colours Tattoo</string>
+    <string name="tagline_primary">Where Your Story Becomes Art.</string>
+    <string name="tagline_secondary">Your Idea. Your Story. Your Tattoo.</string>
+    <string name="founder_name">Shekhar Nayak</string>
+    <string name="founder_title">Founder &amp; Tattoo Artist</string>
+    <string name="experience_years">9+ Years of Professional Tattooing</string>
+    <string name="phone_primary">7976234747</string>
+    <string name="phone_secondary">9860158785</string>
+    <string name="whatsapp_number">7976234747</string>
+    <string name="studio_address">Shubham Complex, Multi Dham / Near Mukti Dham Mandir, Rajwada Nagar, Bitco Point, Nashik Road, Nashik, Maharashtra 422101</string>
+    <string name="maps_url">https://maps.app.goo.gl/jvi92n73G8gtYf1v9</string>
+    <string name="instagram_url">https://www.instagram.com/the_colours_tattooz?stkn=a3IzcXp6ZTY2aThn</string>
+</resources>

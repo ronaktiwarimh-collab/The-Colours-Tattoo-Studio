@@ -1,0 +1,6 @@
+{
+  "name": "The Colours Tattoo",
+  "description": "Premium custom tattooing by Shekhar Nayak in Nashik. Realism, portraits, fine line, cover-ups and custom designs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
